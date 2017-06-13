@@ -1,0 +1,2 @@
+DATE=$(date +"%Y-%m-%d_%H%M");
+raspivid  -vf -hf -o /home/pi/$DATE.h264 -t  45000;
